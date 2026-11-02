@@ -17,7 +17,7 @@ def generateQR():
     if not data:
         return render_template(
             'index.html',
-            error='Please enter a link to generate a QR code.',
+            error='Please enter a link to generate a QR code: ',
             link=data,
         ), 400
 
